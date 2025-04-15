@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # List of all files in the directory
-FILE_LIST=$(ls -p /otp/210225-ptm | grep -v /)
+FILE_LIST=$(ls -l /otp/210225-ptm | grep -v /)
 
 # Review each file
 	for FILE in $FILE_LIST
